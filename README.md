@@ -11,20 +11,21 @@ How to use Face:
 
 Create instance of the FaceController:
 
-private var fc = FaceController()
+```private var fc = FaceController()```
 
 call setup & start:
 
-self.facecontroller.setup(delegate: self)
-self.facecontroller.startSession()
+```self.facecontroller.setup(delegate: self)```
+```self.facecontroller.startSession()```
 
 Implement facedelegate:
 
 
-extension Viewcontroller: FaceDelegate {
+```extension Viewcontroller: FaceDelegate {
      func detectExpression(expression: FaceState) {
        //acces the current expression 
     }
-     func didDetectFace(detected: Bool) {
+    
+   func didDetectFace(detected: Bool) {
     //lets you know if face is detected
     }
