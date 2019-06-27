@@ -1,0 +1,411 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FaceDelegate"
+- "FaceController"
+provides-nominal:
+- "21PhysicalDataReaderLib12FaceDelegateP"
+- "21PhysicalDataReaderLib14FaceControllerC"
+provides-member:
+- ["21PhysicalDataReaderLib12FaceDelegateP", ""]
+- ["21PhysicalDataReaderLib14FaceControllerC", ""]
+provides-dynamic-lookup:
+- "session"
+depends-top-level:
+- "ARAnchor"
+- !private "ARFaceTrackingConfiguration"
+- "ARFrame"
+- "ARSession"
+- "ARSessionDelegate"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "FaceController"
+- "FaceDelegate"
+- "FaceEvaluation"
+- "FaceEvaluationData"
+- "FaceReader"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- !private ["So15ARConfigurationC", "init"]
+- !private ["So15ARConfigurationC", "isSupported"]
+- !private ["So27ARFaceTrackingConfigurationC", "init"]
+- !private ["So27ARFaceTrackingConfigurationC", "isSupported"]
+- !private ["So9ARSessionC", "delegate"]
+- !private ["So9ARSessionC", "init"]
+- !private ["So9ARSessionC", "pause"]
+- !private ["So9ARSessionC", "run"]
+- !private ["So17ARSessionDelegateP", "ARFaceTrackingConfiguration"]
+- !private ["So17ARSessionDelegateP", "ARSession"]
+- !private ["So17ARSessionDelegateP", "FaceEvaluation"]
+- ["So17ARSessionDelegateP", "FaceReader"]
+- ["So17ARSessionDelegateP", ""]
+- !private ["So17ARSessionDelegateP", "evaluator"]
+- !private ["So17ARSessionDelegateP", "faceDelegate"]
+- !private ["So17ARSessionDelegateP", "print"]
+- !private ["So17ARSessionDelegateP", "reader"]
+- ["So17ARSessionDelegateP", "session"]
+- ["So17ARSessionDelegateP", "sessionInterruptionEnded"]
+- ["So17ARSessionDelegateP", "sessionShouldAttemptRelocalization"]
+- ["So17ARSessionDelegateP", "sessionWasInterrupted"]
+- !private ["So17ARSessionObserverP", "ARFaceTrackingConfiguration"]
+- !private ["So17ARSessionObserverP", "ARSession"]
+- !private ["So17ARSessionObserverP", "FaceEvaluation"]
+- ["So17ARSessionObserverP", "FaceReader"]
+- ["So17ARSessionObserverP", ""]
+- !private ["So17ARSessionObserverP", "evaluator"]
+- !private ["So17ARSessionObserverP", "faceDelegate"]
+- !private ["So17ARSessionObserverP", "print"]
+- !private ["So17ARSessionObserverP", "reader"]
+- ["So17ARSessionObserverP", "session"]
+- ["So17ARSessionObserverP", "sessionInterruptionEnded"]
+- ["So17ARSessionObserverP", "sessionShouldAttemptRelocalization"]
+- ["So17ARSessionObserverP", "sessionWasInterrupted"]
+- !private ["s7CVarArgP", "ARFaceTrackingConfiguration"]
+- !private ["s7CVarArgP", "ARSession"]
+- !private ["s7CVarArgP", "FaceEvaluation"]
+- ["s7CVarArgP", "FaceReader"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "evaluator"]
+- !private ["s7CVarArgP", "faceDelegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intelligentFaceDecoding"]
+- !private ["s7CVarArgP", "isFaceTracked"]
+- !private ["s7CVarArgP", "isSupported"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reader"]
+- !private ["s7CVarArgP", "run"]
+- ["s7CVarArgP", "session"]
+- ["s7CVarArgP", "sessionInterruptionEnded"]
+- ["s7CVarArgP", "sessionShouldAttemptRelocalization"]
+- ["s7CVarArgP", "sessionWasInterrupted"]
+- !private ["s28CustomDebugStringConvertibleP", "ARFaceTrackingConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "ARSession"]
+- !private ["s28CustomDebugStringConvertibleP", "FaceEvaluation"]
+- ["s28CustomDebugStringConvertibleP", "FaceReader"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addExpression"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluateSession"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluator"]
+- !private ["s28CustomDebugStringConvertibleP", "faceDelegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intelligentFaceDecoding"]
+- !private ["s28CustomDebugStringConvertibleP", "isFaceTracked"]
+- !private ["s28CustomDebugStringConvertibleP", "isSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reader"]
+- !private ["s28CustomDebugStringConvertibleP", "run"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- ["s28CustomDebugStringConvertibleP", "sessionInterruptionEnded"]
+- ["s28CustomDebugStringConvertibleP", "sessionShouldAttemptRelocalization"]
+- ["s28CustomDebugStringConvertibleP", "sessionWasInterrupted"]
+- !private ["s17CustomReflectableP", "addExpression"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "evaluateSession"]
+- !private ["s17CustomReflectableP", "pause"]
+- !private ["s17CustomReflectableP", "run"]
+- !private ["s23CustomStringConvertibleP", "ARFaceTrackingConfiguration"]
+- !private ["s23CustomStringConvertibleP", "ARSession"]
+- !private ["s23CustomStringConvertibleP", "FaceEvaluation"]
+- ["s23CustomStringConvertibleP", "FaceReader"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "evaluator"]
+- !private ["s23CustomStringConvertibleP", "faceDelegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intelligentFaceDecoding"]
+- !private ["s23CustomStringConvertibleP", "isFaceTracked"]
+- !private ["s23CustomStringConvertibleP", "isSupported"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reader"]
+- !private ["s23CustomStringConvertibleP", "run"]
+- ["s23CustomStringConvertibleP", "session"]
+- ["s23CustomStringConvertibleP", "sessionInterruptionEnded"]
+- ["s23CustomStringConvertibleP", "sessionShouldAttemptRelocalization"]
+- ["s23CustomStringConvertibleP", "sessionWasInterrupted"]
+- !private ["Se", "addExpression"]
+- !private ["Se", "delegate"]
+- !private ["Se", "evaluateSession"]
+- !private ["Se", "pause"]
+- !private ["Se", "run"]
+- !private ["SE", "addExpression"]
+- !private ["SE", "delegate"]
+- !private ["SE", "evaluateSession"]
+- !private ["SE", "pause"]
+- !private ["SE", "run"]
+- !private ["SQ", "ARFaceTrackingConfiguration"]
+- !private ["SQ", "ARSession"]
+- !private ["SQ", "FaceEvaluation"]
+- ["SQ", "FaceReader"]
+- ["SQ", ""]
+- !private ["SQ", "addExpression"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "evaluateSession"]
+- !private ["SQ", "evaluator"]
+- !private ["SQ", "faceDelegate"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intelligentFaceDecoding"]
+- !private ["SQ", "isFaceTracked"]
+- !private ["SQ", "isSupported"]
+- !private ["SQ", "pause"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "reader"]
+- !private ["SQ", "removeExistingAnchors"]
+- !private ["SQ", "resetTracking"]
+- !private ["SQ", "run"]
+- ["SQ", "session"]
+- ["SQ", "sessionInterruptionEnded"]
+- ["SQ", "sessionShouldAttemptRelocalization"]
+- ["SQ", "sessionWasInterrupted"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeExistingAnchors"]
+- !private ["s25ExpressibleByArrayLiteralP", "resetTracking"]
+- !private ["s23ExpressibleByNilLiteralP", "addExpression"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "evaluateSession"]
+- !private ["s23ExpressibleByNilLiteralP", "pause"]
+- !private ["s23ExpressibleByNilLiteralP", "run"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "ARAnchor"]
+- !private ["21PhysicalDataReaderLib14FaceControllerC", "ARFaceTrackingConfiguration"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "ARFrame"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "ARSession"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "FaceDelegate"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "FaceEvaluation"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "FaceEvaluationData"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "FaceReader"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "deinit"]
+- !private ["21PhysicalDataReaderLib14FaceControllerC", "evaluator"]
+- !private ["21PhysicalDataReaderLib14FaceControllerC", "faceDelegate"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "init"]
+- !private ["21PhysicalDataReaderLib14FaceControllerC", "print"]
+- !private ["21PhysicalDataReaderLib14FaceControllerC", "reader"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "session"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "sessionInterruptionEnded"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "sessionShouldAttemptRelocalization"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "sessionWasInterrupted"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "setup"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "startSession"]
+- ["21PhysicalDataReaderLib14FaceControllerC", "stopSession"]
+- ["21PhysicalDataReaderLib12FaceDelegateP", "Bool"]
+- ["21PhysicalDataReaderLib12FaceDelegateP", "String"]
+- ["21PhysicalDataReaderLib12FaceDelegateP", "detectExpression"]
+- ["21PhysicalDataReaderLib12FaceDelegateP", "didDetectFace"]
+- !private ["21PhysicalDataReaderLib14FaceEvaluationC", "addExpression"]
+- !private ["21PhysicalDataReaderLib14FaceEvaluationC", "evaluateSession"]
+- !private ["21PhysicalDataReaderLib14FaceEvaluationC", "init"]
+- ["21PhysicalDataReaderLib04FaceC0C", "init"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "intelligentFaceDecoding"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isFaceTracked"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "deinit"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "rawValue"]
+- !private ["SH", "ARFaceTrackingConfiguration"]
+- !private ["SH", "ARSession"]
+- !private ["SH", "FaceEvaluation"]
+- ["SH", "FaceReader"]
+- ["SH", ""]
+- !private ["SH", "addExpression"]
+- !private ["SH", "delegate"]
+- !private ["SH", "evaluateSession"]
+- !private ["SH", "evaluator"]
+- !private ["SH", "faceDelegate"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "intelligentFaceDecoding"]
+- !private ["SH", "isFaceTracked"]
+- !private ["SH", "isSupported"]
+- !private ["SH", "pause"]
+- !private ["SH", "print"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "reader"]
+- !private ["SH", "run"]
+- ["SH", "session"]
+- ["SH", "sessionInterruptionEnded"]
+- ["SH", "sessionShouldAttemptRelocalization"]
+- ["SH", "sessionWasInterrupted"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isSupported"]
+- ["So8NSObjectC", "ARAnchor"]
+- !private ["So8NSObjectC", "ARFaceTrackingConfiguration"]
+- ["So8NSObjectC", "ARFrame"]
+- ["So8NSObjectC", "ARSession"]
+- ["So8NSObjectC", "FaceDelegate"]
+- ["So8NSObjectC", "FaceEvaluation"]
+- ["So8NSObjectC", "FaceEvaluationData"]
+- ["So8NSObjectC", "FaceReader"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "evaluator"]
+- ["So8NSObjectC", "faceDelegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intelligentFaceDecoding"]
+- !private ["So8NSObjectC", "isFaceTracked"]
+- !private ["So8NSObjectC", "isSupported"]
+- !private ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "reader"]
+- !private ["So8NSObjectC", "run"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "sessionInterruptionEnded"]
+- ["So8NSObjectC", "sessionShouldAttemptRelocalization"]
+- ["So8NSObjectC", "sessionWasInterrupted"]
+- ["So8NSObjectC", "setup"]
+- ["So8NSObjectC", "startSession"]
+- ["So8NSObjectC", "stopSession"]
+- !private ["So8NSObjectP", "ARFaceTrackingConfiguration"]
+- !private ["So8NSObjectP", "ARSession"]
+- !private ["So8NSObjectP", "FaceEvaluation"]
+- ["So8NSObjectP", "FaceReader"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "evaluator"]
+- !private ["So8NSObjectP", "faceDelegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intelligentFaceDecoding"]
+- !private ["So8NSObjectP", "isFaceTracked"]
+- !private ["So8NSObjectP", "isSupported"]
+- !private ["So8NSObjectP", "pause"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "reader"]
+- !private ["So8NSObjectP", "run"]
+- ["So8NSObjectP", "session"]
+- ["So8NSObjectP", "sessionInterruptionEnded"]
+- ["So8NSObjectP", "sessionShouldAttemptRelocalization"]
+- ["So8NSObjectP", "sessionWasInterrupted"]
+- !private ["s9OptionSetP", "removeExistingAnchors"]
+- !private ["s9OptionSetP", "resetTracking"]
+- !private ["Sq", "addExpression"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "evaluateSession"]
+- !private ["Sq", "pause"]
+- !private ["Sq", "run"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "removeExistingAnchors"]
+- !private ["SY", "resetTracking"]
+- !private ["So19ARSessionRunOptionsV", "removeExistingAnchors"]
+- !private ["So19ARSessionRunOptionsV", "resetTracking"]
+- !private ["s10SetAlgebraP", "removeExistingAnchors"]
+- !private ["s10SetAlgebraP", "resetTracking"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ARFaceTrackingConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ARSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FaceEvaluation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FaceReader"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evaluator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "faceDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intelligentFaceDecoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFaceTracked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "run"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionInterruptionEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionShouldAttemptRelocalization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionWasInterrupted"]
+- !private ["s21_ObjectiveCBridgeableP", "addExpression"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "evaluateSession"]
+- !private ["s21_ObjectiveCBridgeableP", "pause"]
+- !private ["s21_ObjectiveCBridgeableP", "run"]
+depends-nominal:
+- !private "So15ARConfigurationC"
+- !private "So27ARFaceTrackingConfigurationC"
+- !private "So9ARSessionC"
+- "So17ARSessionDelegateP"
+- "So17ARSessionObserverP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "21PhysicalDataReaderLib14FaceControllerC"
+- "21PhysicalDataReaderLib12FaceDelegateP"
+- !private "21PhysicalDataReaderLib14FaceEvaluationC"
+- "21PhysicalDataReaderLib04FaceC0C"
+- !private "21PhysicalDataReaderLib9FaceStateO"
+- "SH"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- !private "So19ARSessionRunOptionsV"
+- !private "s10SetAlgebraP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/PhysicalDataReaderLib.h"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/build/PhysicalDataReaderLib.build/Debug-iphoneos/PhysicalDataReaderLib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "9e7263006b2942bec68c6f2c6c97a599"

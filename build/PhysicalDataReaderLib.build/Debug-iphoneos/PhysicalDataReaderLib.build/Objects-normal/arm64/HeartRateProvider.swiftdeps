@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HKQueryUpdateHandler"
+- "HeartRateProviderDelegate"
+- "HeartRateProvider"
+provides-nominal:
+- "21PhysicalDataReaderLib25HeartRateProviderDelegateP"
+- "21PhysicalDataReaderLib17HeartRateProviderC"
+provides-member:
+- ["21PhysicalDataReaderLib25HeartRateProviderDelegateP", ""]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Date"
+- "Double"
+- "Error"
+- !private "FloatLiteralType"
+- "HKAnchoredObjectQuery"
+- "HKDeletedObject"
+- !private "HKDevice"
+- "HKHealthStore"
+- !private "HKObjectQueryNoLimit"
+- !private "HKObjectType"
+- "HKQuantitySample"
+- !private "HKQuantityType"
+- "HKQuery"
+- "HKQueryAnchor"
+- "HKQueryUpdateHandler"
+- "HKSample"
+- !private "HKUnit"
+- "HeartRateProvider"
+- "HeartRateProviderDelegate"
+- !private "IntegerLiteralType"
+- !private "NSCompoundPredicate"
+- !private "StringLiteralType"
+- "Swift"
+- "Void"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "execute"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHealthDataAvailable"]
+- !private ["s7CVarArgP", "local"]
+- !private ["s7CVarArgP", "predicateForObjects"]
+- !private ["s7CVarArgP", "predicateForSamples"]
+- !private ["s7CVarArgP", "quantity"]
+- !private ["s7CVarArgP", "quantityType"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "updateHandler"]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "execute"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "local"]
+- !private ["s28CustomDebugStringConvertibleP", "predicateForObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "predicateForSamples"]
+- !private ["s28CustomDebugStringConvertibleP", "quantity"]
+- !private ["s28CustomDebugStringConvertibleP", "quantityType"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "updateHandler"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s23CustomStringConvertibleP", "local"]
+- !private ["s23CustomStringConvertibleP", "predicateForObjects"]
+- !private ["s23CustomStringConvertibleP", "predicateForSamples"]
+- !private ["s23CustomStringConvertibleP", "quantity"]
+- !private ["s23CustomStringConvertibleP", "quantityType"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "updateHandler"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SQ", "append"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "execute"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "heartRate"]
+- ["SQ", "init"]
+- !private ["SQ", "isHealthDataAvailable"]
+- !private ["SQ", "local"]
+- !private ["SQ", "predicateForObjects"]
+- !private ["SQ", "predicateForSamples"]
+- !private ["SQ", "quantity"]
+- !private ["SQ", "quantityType"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "stop"]
+- !private ["SQ", "strictStartDate"]
+- !private ["SQ", "updateHandler"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "strictStartDate"]
+- !private ["So21HKAnchoredObjectQueryC", "init"]
+- !private ["So21HKAnchoredObjectQueryC", "updateHandler"]
+- !private ["So8HKDeviceC", "local"]
+- !private ["So13HKHealthStoreC", "execute"]
+- ["So13HKHealthStoreC", "init"]
+- !private ["So13HKHealthStoreC", "isHealthDataAvailable"]
+- !private ["So13HKHealthStoreC", "requestAuthorization"]
+- !private ["So13HKHealthStoreC", "stop"]
+- !private ["So8HKObjectC", "quantity"]
+- !private ["So8HKObjectC", "quantityType"]
+- !private ["So12HKObjectTypeC", "quantityType"]
+- !private ["So10HKQuantityC", "doubleValue"]
+- !private ["So16HKQuantitySampleC", "quantity"]
+- !private ["So16HKQuantitySampleC", "quantityType"]
+- !private ["So14HKQuantityTypeC", "quantityType"]
+- !private ["So24HKQuantityTypeIdentifiera", "heartRate"]
+- !private ["So7HKQueryC", "init"]
+- !private ["So7HKQueryC", "predicateForObjects"]
+- !private ["So7HKQueryC", "predicateForSamples"]
+- !private ["So7HKQueryC", "updateHandler"]
+- !private ["So14HKQueryOptionsV", "strictStartDate"]
+- !private ["So8HKSampleC", "quantity"]
+- !private ["So8HKSampleC", "quantityType"]
+- !private ["So12HKSampleTypeC", "quantityType"]
+- !private ["So6HKUnitC", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "execute"]
+- !private ["SH", "forEach"]
+- !private ["SH", "heartRate"]
+- ["SH", "init"]
+- !private ["SH", "isHealthDataAvailable"]
+- !private ["SH", "local"]
+- !private ["SH", "predicateForObjects"]
+- !private ["SH", "predicateForSamples"]
+- !private ["SH", "quantity"]
+- !private ["SH", "quantityType"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "stop"]
+- !private ["SH", "updateHandler"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "Bool"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "Date"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKAnchoredObjectQuery"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKDevice"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "HKHealthStore"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKObjectQueryNoLimit"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKObjectType"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "HKQuantitySample"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKQuantityType"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "HKQuery"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKQueryUpdateHandler"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "HKUnit"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "HeartRateProviderDelegate"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "NSCompoundPredicate"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "Void"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "activeQueries"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "debugPrint"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "delegate"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "healthStore"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "init"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "print"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "process"]
+- !private ["21PhysicalDataReaderLib17HeartRateProviderC", "processHR"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "requestAuthorization"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "start"]
+- ["21PhysicalDataReaderLib17HeartRateProviderC", "stop"]
+- ["21PhysicalDataReaderLib25HeartRateProviderDelegateP", "Double"]
+- ["21PhysicalDataReaderLib25HeartRateProviderDelegateP", "heartRate"]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "local"]
+- !private ["So8NSCodingP", "quantity"]
+- !private ["So8NSCodingP", "quantityType"]
+- !private ["So19NSCompoundPredicateC", "init"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "local"]
+- !private ["So9NSCopyingP", "quantityType"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "execute"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHealthDataAvailable"]
+- !private ["So8NSObjectC", "local"]
+- !private ["So8NSObjectC", "predicateForObjects"]
+- !private ["So8NSObjectC", "predicateForSamples"]
+- !private ["So8NSObjectC", "quantity"]
+- !private ["So8NSObjectC", "quantityType"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "updateHandler"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "execute"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHealthDataAvailable"]
+- !private ["So8NSObjectP", "local"]
+- !private ["So8NSObjectP", "predicateForObjects"]
+- !private ["So8NSObjectP", "predicateForSamples"]
+- !private ["So8NSObjectP", "quantity"]
+- !private ["So8NSObjectP", "quantityType"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["So8NSObjectP", "updateHandler"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "local"]
+- !private ["So14NSSecureCodingP", "quantity"]
+- !private ["So14NSSecureCodingP", "quantityType"]
+- !private ["s9OptionSetP", "strictStartDate"]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["SY", "heartRate"]
+- !private ["SY", "strictStartDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["s10SetAlgebraP", "strictStartDate"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "heartRate"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "execute"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHealthDataAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "local"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicateForObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicateForSamples"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quantity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quantityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateHandler"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "heartRate"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s20_SwiftNewtypeWrapperP", "heartRate"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "So21HKAnchoredObjectQueryC"
+- !private "So8HKDeviceC"
+- "So13HKHealthStoreC"
+- !private "So8HKObjectC"
+- !private "So12HKObjectTypeC"
+- !private "So10HKQuantityC"
+- !private "So16HKQuantitySampleC"
+- !private "So14HKQuantityTypeC"
+- !private "So24HKQuantityTypeIdentifiera"
+- !private "So7HKQueryC"
+- !private "So14HKQueryOptionsV"
+- !private "So8HKSampleC"
+- !private "So12HKSampleTypeC"
+- !private "So6HKUnitC"
+- "SH"
+- "21PhysicalDataReaderLib17HeartRateProviderC"
+- "21PhysicalDataReaderLib25HeartRateProviderDelegateP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So19NSCompoundPredicateC"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/PhysicalDataReaderLib.h"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/build/PhysicalDataReaderLib.build/Debug-iphoneos/PhysicalDataReaderLib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "4ccef13898be5e93b782efcd5d29957b"

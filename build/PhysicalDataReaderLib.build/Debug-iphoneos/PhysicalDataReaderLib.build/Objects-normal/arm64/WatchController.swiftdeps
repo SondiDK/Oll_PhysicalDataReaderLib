@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WatchReaderDelegate"
+- "WatchController"
+provides-nominal:
+- "21PhysicalDataReaderLib05WatchC8DelegateP"
+- "21PhysicalDataReaderLib15WatchControllerC"
+provides-member:
+- ["21PhysicalDataReaderLib05WatchC8DelegateP", ""]
+- ["21PhysicalDataReaderLib15WatchControllerC", ""]
+provides-dynamic-lookup:
+- "session"
+- "sessionDidBecomeInactive"
+- "sessionDidDeactivate"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Error"
+- "HeartEvaluationData"
+- "HeartRateEvaluation"
+- "Int"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "WCSession"
+- "WCSessionActivationState"
+- "WCSessionDelegate"
+- "WatchController"
+- "WatchReaderDelegate"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "HeartRateEvaluation"]
+- !private ["s7CVarArgP", "WCSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "evaluator"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSupported"]
+- !private ["s7CVarArgP", "sendMessage"]
+- ["s7CVarArgP", "session"]
+- ["s7CVarArgP", "sessionDidBecomeInactive"]
+- ["s7CVarArgP", "sessionDidDeactivate"]
+- ["s7CVarArgP", "sessionReachabilityDidChange"]
+- ["s7CVarArgP", "sessionWatchStateDidChange"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "watchDelegate"]
+- !private ["Sl", "append"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "HeartRateEvaluation"]
+- !private ["s28CustomDebugStringConvertibleP", "WCSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluateSession"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluator"]
+- !private ["s28CustomDebugStringConvertibleP", "heartRates"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "sendMessage"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- ["s28CustomDebugStringConvertibleP", "sessionDidBecomeInactive"]
+- ["s28CustomDebugStringConvertibleP", "sessionDidDeactivate"]
+- ["s28CustomDebugStringConvertibleP", "sessionReachabilityDidChange"]
+- ["s28CustomDebugStringConvertibleP", "sessionWatchStateDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "watchDelegate"]
+- !private ["s17CustomReflectableP", "activate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "evaluateSession"]
+- !private ["s17CustomReflectableP", "heartRates"]
+- !private ["s17CustomReflectableP", "sendMessage"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "HeartRateEvaluation"]
+- !private ["s23CustomStringConvertibleP", "WCSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "evaluator"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSupported"]
+- !private ["s23CustomStringConvertibleP", "sendMessage"]
+- ["s23CustomStringConvertibleP", "session"]
+- ["s23CustomStringConvertibleP", "sessionDidBecomeInactive"]
+- ["s23CustomStringConvertibleP", "sessionDidDeactivate"]
+- ["s23CustomStringConvertibleP", "sessionReachabilityDidChange"]
+- ["s23CustomStringConvertibleP", "sessionWatchStateDidChange"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "watchDelegate"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "activate"]
+- !private ["Se", "append"]
+- !private ["Se", "delegate"]
+- !private ["Se", "evaluateSession"]
+- !private ["Se", "heartRates"]
+- !private ["Se", "sendMessage"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "activate"]
+- !private ["SE", "append"]
+- !private ["SE", "delegate"]
+- !private ["SE", "evaluateSession"]
+- !private ["SE", "heartRates"]
+- !private ["SE", "sendMessage"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "HeartRateEvaluation"]
+- !private ["SQ", "WCSession"]
+- ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "default"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "evaluateSession"]
+- !private ["SQ", "evaluator"]
+- !private ["SQ", "heartRates"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSupported"]
+- !private ["SQ", "sendMessage"]
+- ["SQ", "session"]
+- ["SQ", "sessionDidBecomeInactive"]
+- ["SQ", "sessionDidDeactivate"]
+- ["SQ", "sessionReachabilityDidChange"]
+- ["SQ", "sessionWatchStateDidChange"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "watchDelegate"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "activate"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "evaluateSession"]
+- !private ["s23ExpressibleByNilLiteralP", "heartRates"]
+- !private ["s23ExpressibleByNilLiteralP", "sendMessage"]
+- !private ["SH", "HeartRateEvaluation"]
+- !private ["SH", "WCSession"]
+- ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "append"]
+- !private ["SH", "default"]
+- !private ["SH", "delegate"]
+- !private ["SH", "evaluateSession"]
+- !private ["SH", "evaluator"]
+- !private ["SH", "heartRates"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isSupported"]
+- !private ["SH", "sendMessage"]
+- ["SH", "session"]
+- ["SH", "sessionDidBecomeInactive"]
+- ["SH", "sessionDidDeactivate"]
+- ["SH", "sessionReachabilityDidChange"]
+- ["SH", "sessionWatchStateDidChange"]
+- !private ["SH", "subscript"]
+- !private ["SH", "watchDelegate"]
+- !private ["21PhysicalDataReaderLib19HeartRateEvaluationC", "evaluateSession"]
+- !private ["21PhysicalDataReaderLib19HeartRateEvaluationC", "heartRates"]
+- !private ["21PhysicalDataReaderLib19HeartRateEvaluationC", "init"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "HeartEvaluationData"]
+- ["So8NSObjectC", "HeartRateEvaluation"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "WCSession"]
+- ["So8NSObjectC", "WCSessionActivationState"]
+- ["So8NSObjectC", "WatchReaderDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "evaluator"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSupported"]
+- !private ["So8NSObjectC", "sendMessage"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "sessionDidBecomeInactive"]
+- ["So8NSObjectC", "sessionDidDeactivate"]
+- ["So8NSObjectC", "sessionReachabilityDidChange"]
+- ["So8NSObjectC", "sessionWatchStateDidChange"]
+- ["So8NSObjectC", "setup"]
+- ["So8NSObjectC", "startListeningForHR"]
+- ["So8NSObjectC", "stopHR"]
+- ["So8NSObjectC", "watchDelegate"]
+- !private ["So8NSObjectP", "HeartRateEvaluation"]
+- !private ["So8NSObjectP", "WCSession"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "evaluator"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSupported"]
+- !private ["So8NSObjectP", "sendMessage"]
+- ["So8NSObjectP", "session"]
+- ["So8NSObjectP", "sessionDidBecomeInactive"]
+- ["So8NSObjectP", "sessionDidDeactivate"]
+- ["So8NSObjectP", "sessionReachabilityDidChange"]
+- ["So8NSObjectP", "sessionWatchStateDidChange"]
+- !private ["So8NSObjectP", "watchDelegate"]
+- !private ["Sq", "activate"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "evaluateSession"]
+- !private ["Sq", "heartRates"]
+- !private ["Sq", "sendMessage"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["ST", "append"]
+- !private ["ST", "subscript"]
+- !private ["So9WCSessionC", "activate"]
+- !private ["So9WCSessionC", "default"]
+- !private ["So9WCSessionC", "delegate"]
+- !private ["So9WCSessionC", "isSupported"]
+- !private ["So9WCSessionC", "sendMessage"]
+- !private ["So17WCSessionDelegateP", "HeartRateEvaluation"]
+- !private ["So17WCSessionDelegateP", "WCSession"]
+- ["So17WCSessionDelegateP", ""]
+- !private ["So17WCSessionDelegateP", "evaluator"]
+- ["So17WCSessionDelegateP", "session"]
+- ["So17WCSessionDelegateP", "sessionDidBecomeInactive"]
+- ["So17WCSessionDelegateP", "sessionDidDeactivate"]
+- ["So17WCSessionDelegateP", "sessionReachabilityDidChange"]
+- ["So17WCSessionDelegateP", "sessionWatchStateDidChange"]
+- !private ["So17WCSessionDelegateP", "watchDelegate"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "Error"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "HeartEvaluationData"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "HeartRateEvaluation"]
+- !private ["21PhysicalDataReaderLib15WatchControllerC", "Int"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "String"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "WCSession"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "WCSessionActivationState"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "WatchReaderDelegate"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "deinit"]
+- !private ["21PhysicalDataReaderLib15WatchControllerC", "evaluator"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "init"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "session"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "sessionDidBecomeInactive"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "sessionDidDeactivate"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "sessionReachabilityDidChange"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "sessionWatchStateDidChange"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "setup"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "startListeningForHR"]
+- ["21PhysicalDataReaderLib15WatchControllerC", "stopHR"]
+- !private ["21PhysicalDataReaderLib15WatchControllerC", "watchDelegate"]
+- ["21PhysicalDataReaderLib05WatchC8DelegateP", "Int"]
+- ["21PhysicalDataReaderLib05WatchC8DelegateP", "didGetHeartRate"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HeartRateEvaluation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WCSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evaluator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionDidBecomeInactive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionDidDeactivate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionReachabilityDidChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionWatchStateDidChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "watchDelegate"]
+- !private ["s21_ObjectiveCBridgeableP", "activate"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "evaluateSession"]
+- !private ["s21_ObjectiveCBridgeableP", "heartRates"]
+- !private ["s21_ObjectiveCBridgeableP", "sendMessage"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "21PhysicalDataReaderLib19HeartRateEvaluationC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "So9WCSessionC"
+- "So17WCSessionDelegateP"
+- "21PhysicalDataReaderLib15WatchControllerC"
+- "21PhysicalDataReaderLib05WatchC8DelegateP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/PhysicalDataReaderLib.h"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/build/PhysicalDataReaderLib.build/Debug-iphoneos/PhysicalDataReaderLib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "68d31b6096add512b519d052b7ab598c"

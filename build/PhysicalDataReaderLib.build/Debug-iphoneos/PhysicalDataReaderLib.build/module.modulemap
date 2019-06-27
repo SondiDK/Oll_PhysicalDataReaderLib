@@ -1,0 +1,11 @@
+framework module PhysicalDataReaderLib {
+  umbrella header "PhysicalDataReaderLib.h"
+
+  export *
+  module * { export * }
+}
+
+module PhysicalDataReaderLib.Swift {
+    header "PhysicalDataReaderLib-Swift.h"
+    requires objc
+}

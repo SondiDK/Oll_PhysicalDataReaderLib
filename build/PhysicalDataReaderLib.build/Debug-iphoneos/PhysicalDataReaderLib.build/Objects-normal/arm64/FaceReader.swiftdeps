@@ -1,0 +1,479 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FaceReader"
+provides-nominal:
+- "21PhysicalDataReaderLib04FaceC0C"
+provides-member:
+- ["21PhysicalDataReaderLib04FaceC0C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "<"
+- !private ">"
+- "ARAnchor"
+- "ARFaceAnchor"
+- "AssignmentPrecedence"
+- !private "BLINK_VALUE"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "EYEBROW_VALUE"
+- !private "FROWN_LEFT_VALUE"
+- !private "FROWN_RIGHT_VALUE"
+- "FaceReader"
+- "FaceState"
+- "NSObject"
+- !private "OPEN_EYE"
+- !private "SMILE_LEFT_VALUE"
+- !private "SMILE_RIGHT_VALUE"
+- !private "TONGUE_VALUE"
+- !private "||"
+depends-member:
+- !private ["So8ARAnchorC", "blendShapes"]
+- !private ["So8ARAnchorC", "isTracked"]
+- !private ["So15ARAnchorCopyingP", "blendShapes"]
+- !private ["So15ARAnchorCopyingP", "isTracked"]
+- !private ["So12ARFaceAnchorC", "blendShapes"]
+- !private ["So12ARFaceAnchorC", "isTracked"]
+- !private ["So11ARTrackableP", "blendShapes"]
+- !private ["So11ARTrackableP", "isTracked"]
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["So20ARBlendShapeLocationa", "browInnerUp"]
+- !private ["So20ARBlendShapeLocationa", "eyeBlinkLeft"]
+- !private ["So20ARBlendShapeLocationa", "eyeBlinkRight"]
+- !private ["So20ARBlendShapeLocationa", "mouthFrownLeft"]
+- !private ["So20ARBlendShapeLocationa", "mouthFrownRight"]
+- !private ["So20ARBlendShapeLocationa", "mouthSmileLeft"]
+- !private ["So20ARBlendShapeLocationa", "mouthSmileRight"]
+- !private ["So20ARBlendShapeLocationa", "tongueOut"]
+- !private ["s7CVarArgP", "BLINK_VALUE"]
+- !private ["s7CVarArgP", "EYEBROW_VALUE"]
+- !private ["s7CVarArgP", "FROWN_LEFT_VALUE"]
+- !private ["s7CVarArgP", "FROWN_RIGHT_VALUE"]
+- !private ["s7CVarArgP", "OPEN_EYE"]
+- !private ["s7CVarArgP", "SMILE_LEFT_VALUE"]
+- !private ["s7CVarArgP", "SMILE_RIGHT_VALUE"]
+- !private ["s7CVarArgP", "TONGUE_VALUE"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "blendShapes"]
+- !private ["s7CVarArgP", "face"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "floatValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isFrowning"]
+- !private ["s7CVarArgP", "isSmiling"]
+- !private ["s7CVarArgP", "isStickingTongueOut"]
+- !private ["s7CVarArgP", "isSurprised"]
+- !private ["s7CVarArgP", "isTracked"]
+- !private ["s7CVarArgP", "isWinking"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "browInnerUp"]
+- !private ["SL", "eyeBlinkLeft"]
+- !private ["SL", "eyeBlinkRight"]
+- !private ["SL", "mouthFrownLeft"]
+- !private ["SL", "mouthFrownRight"]
+- !private ["SL", "mouthSmileLeft"]
+- !private ["SL", "mouthSmileRight"]
+- !private ["SL", "tongueOut"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "BLINK_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "EYEBROW_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "FROWN_LEFT_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "FROWN_RIGHT_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "OPEN_EYE"]
+- !private ["s28CustomDebugStringConvertibleP", "SMILE_LEFT_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "SMILE_RIGHT_VALUE"]
+- !private ["s28CustomDebugStringConvertibleP", "TONGUE_VALUE"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "blendShapes"]
+- !private ["s28CustomDebugStringConvertibleP", "face"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isFrowning"]
+- !private ["s28CustomDebugStringConvertibleP", "isSmiling"]
+- !private ["s28CustomDebugStringConvertibleP", "isStickingTongueOut"]
+- !private ["s28CustomDebugStringConvertibleP", "isSurprised"]
+- !private ["s28CustomDebugStringConvertibleP", "isTracked"]
+- !private ["s28CustomDebugStringConvertibleP", "isWinking"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "BLINK_VALUE"]
+- !private ["s23CustomStringConvertibleP", "EYEBROW_VALUE"]
+- !private ["s23CustomStringConvertibleP", "FROWN_LEFT_VALUE"]
+- !private ["s23CustomStringConvertibleP", "FROWN_RIGHT_VALUE"]
+- !private ["s23CustomStringConvertibleP", "OPEN_EYE"]
+- !private ["s23CustomStringConvertibleP", "SMILE_LEFT_VALUE"]
+- !private ["s23CustomStringConvertibleP", "SMILE_RIGHT_VALUE"]
+- !private ["s23CustomStringConvertibleP", "TONGUE_VALUE"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "blendShapes"]
+- !private ["s23CustomStringConvertibleP", "face"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isFrowning"]
+- !private ["s23CustomStringConvertibleP", "isSmiling"]
+- !private ["s23CustomStringConvertibleP", "isStickingTongueOut"]
+- !private ["s23CustomStringConvertibleP", "isSurprised"]
+- !private ["s23CustomStringConvertibleP", "isTracked"]
+- !private ["s23CustomStringConvertibleP", "isWinking"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "first"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "first"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "BLINK_VALUE"]
+- !private ["SQ", "EYEBROW_VALUE"]
+- !private ["SQ", "FROWN_LEFT_VALUE"]
+- !private ["SQ", "FROWN_RIGHT_VALUE"]
+- !private ["SQ", "OPEN_EYE"]
+- !private ["SQ", "SMILE_LEFT_VALUE"]
+- !private ["SQ", "SMILE_RIGHT_VALUE"]
+- !private ["SQ", "TONGUE_VALUE"]
+- ["SQ", ""]
+- !private ["SQ", "blendShapes"]
+- !private ["SQ", "browInnerUp"]
+- !private ["SQ", "eyeBlinkLeft"]
+- !private ["SQ", "eyeBlinkRight"]
+- !private ["SQ", "face"]
+- !private ["SQ", "first"]
+- !private ["SQ", "floatValue"]
+- !private ["SQ", "frowning"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isFrowning"]
+- !private ["SQ", "isSmiling"]
+- !private ["SQ", "isStickingTongueOut"]
+- !private ["SQ", "isSurprised"]
+- !private ["SQ", "isTracked"]
+- !private ["SQ", "isWinking"]
+- !private ["SQ", "mouthFrownLeft"]
+- !private ["SQ", "mouthFrownRight"]
+- !private ["SQ", "mouthSmileLeft"]
+- !private ["SQ", "mouthSmileRight"]
+- !private ["SQ", "neutral"]
+- !private ["SQ", "smiling"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "surprised"]
+- !private ["SQ", "tongueOut"]
+- !private ["SQ", "tongue_out"]
+- !private ["SQ", "winking"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- ["21PhysicalDataReaderLib04FaceC0C", "ARAnchor"]
+- ["21PhysicalDataReaderLib04FaceC0C", "ARFaceAnchor"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "BLINK_VALUE"]
+- ["21PhysicalDataReaderLib04FaceC0C", "Bool"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "EYEBROW_VALUE"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "FROWN_LEFT_VALUE"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "FROWN_RIGHT_VALUE"]
+- ["21PhysicalDataReaderLib04FaceC0C", "FaceState"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "OPEN_EYE"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "SMILE_LEFT_VALUE"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "SMILE_RIGHT_VALUE"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "TONGUE_VALUE"]
+- ["21PhysicalDataReaderLib04FaceC0C", "deinit"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "face"]
+- ["21PhysicalDataReaderLib04FaceC0C", "init"]
+- ["21PhysicalDataReaderLib04FaceC0C", "intelligentFaceDecoding"]
+- ["21PhysicalDataReaderLib04FaceC0C", "isFaceTracked"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isFrowning"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isSmiling"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isStickingTongueOut"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isSurprised"]
+- !private ["21PhysicalDataReaderLib04FaceC0C", "isWinking"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "frowning"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "neutral"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "smiling"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "surprised"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "tongue_out"]
+- !private ["21PhysicalDataReaderLib9FaceStateO", "winking"]
+- !private ["SH", "BLINK_VALUE"]
+- !private ["SH", "EYEBROW_VALUE"]
+- !private ["SH", "FROWN_LEFT_VALUE"]
+- !private ["SH", "FROWN_RIGHT_VALUE"]
+- !private ["SH", "OPEN_EYE"]
+- !private ["SH", "SMILE_LEFT_VALUE"]
+- !private ["SH", "SMILE_RIGHT_VALUE"]
+- !private ["SH", "TONGUE_VALUE"]
+- ["SH", ""]
+- !private ["SH", "blendShapes"]
+- !private ["SH", "browInnerUp"]
+- !private ["SH", "eyeBlinkLeft"]
+- !private ["SH", "eyeBlinkRight"]
+- !private ["SH", "face"]
+- !private ["SH", "first"]
+- !private ["SH", "floatValue"]
+- !private ["SH", "frowning"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isFrowning"]
+- !private ["SH", "isSmiling"]
+- !private ["SH", "isStickingTongueOut"]
+- !private ["SH", "isSurprised"]
+- !private ["SH", "isTracked"]
+- !private ["SH", "isWinking"]
+- !private ["SH", "mouthFrownLeft"]
+- !private ["SH", "mouthFrownRight"]
+- !private ["SH", "mouthSmileLeft"]
+- !private ["SH", "mouthSmileRight"]
+- !private ["SH", "neutral"]
+- !private ["SH", "smiling"]
+- !private ["SH", "subscript"]
+- !private ["SH", "surprised"]
+- !private ["SH", "tongueOut"]
+- !private ["SH", "tongue_out"]
+- !private ["SH", "winking"]
+- !private ["SD5IndexV", "browInnerUp"]
+- !private ["SD5IndexV", "eyeBlinkLeft"]
+- !private ["SD5IndexV", "eyeBlinkRight"]
+- !private ["SD5IndexV", "mouthFrownLeft"]
+- !private ["SD5IndexV", "mouthFrownRight"]
+- !private ["SD5IndexV", "mouthSmileLeft"]
+- !private ["SD5IndexV", "mouthSmileRight"]
+- !private ["SD5IndexV", "tongueOut"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "blendShapes"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So8NSCodingP", "isTracked"]
+- !private ["So9NSCopyingP", "blendShapes"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So9NSCopyingP", "isTracked"]
+- !private ["So8NSNumberC", "floatValue"]
+- ["So8NSObjectC", "ARAnchor"]
+- ["So8NSObjectC", "ARFaceAnchor"]
+- !private ["So8NSObjectC", "BLINK_VALUE"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "EYEBROW_VALUE"]
+- !private ["So8NSObjectC", "FROWN_LEFT_VALUE"]
+- !private ["So8NSObjectC", "FROWN_RIGHT_VALUE"]
+- ["So8NSObjectC", "FaceState"]
+- !private ["So8NSObjectC", "OPEN_EYE"]
+- !private ["So8NSObjectC", "SMILE_LEFT_VALUE"]
+- !private ["So8NSObjectC", "SMILE_RIGHT_VALUE"]
+- !private ["So8NSObjectC", "TONGUE_VALUE"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "blendShapes"]
+- ["So8NSObjectC", "face"]
+- !private ["So8NSObjectC", "floatValue"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intelligentFaceDecoding"]
+- ["So8NSObjectC", "isFaceTracked"]
+- ["So8NSObjectC", "isFrowning"]
+- ["So8NSObjectC", "isSmiling"]
+- ["So8NSObjectC", "isStickingTongueOut"]
+- ["So8NSObjectC", "isSurprised"]
+- !private ["So8NSObjectC", "isTracked"]
+- ["So8NSObjectC", "isWinking"]
+- !private ["So8NSObjectP", "BLINK_VALUE"]
+- !private ["So8NSObjectP", "EYEBROW_VALUE"]
+- !private ["So8NSObjectP", "FROWN_LEFT_VALUE"]
+- !private ["So8NSObjectP", "FROWN_RIGHT_VALUE"]
+- !private ["So8NSObjectP", "OPEN_EYE"]
+- !private ["So8NSObjectP", "SMILE_LEFT_VALUE"]
+- !private ["So8NSObjectP", "SMILE_RIGHT_VALUE"]
+- !private ["So8NSObjectP", "TONGUE_VALUE"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "blendShapes"]
+- !private ["So8NSObjectP", "face"]
+- !private ["So8NSObjectP", "floatValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isFrowning"]
+- !private ["So8NSObjectP", "isSmiling"]
+- !private ["So8NSObjectP", "isStickingTongueOut"]
+- !private ["So8NSObjectP", "isSurprised"]
+- !private ["So8NSObjectP", "isTracked"]
+- !private ["So8NSObjectP", "isWinking"]
+- !private ["So14NSSecureCodingP", "blendShapes"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So14NSSecureCodingP", "isTracked"]
+- !private ["So7NSValueC", "floatValue"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["SY", "browInnerUp"]
+- !private ["SY", "eyeBlinkLeft"]
+- !private ["SY", "eyeBlinkRight"]
+- !private ["SY", "frowning"]
+- !private ["SY", "mouthFrownLeft"]
+- !private ["SY", "mouthFrownRight"]
+- !private ["SY", "mouthSmileLeft"]
+- !private ["SY", "mouthSmileRight"]
+- !private ["SY", "neutral"]
+- !private ["SY", "smiling"]
+- !private ["SY", "surprised"]
+- !private ["SY", "tongueOut"]
+- !private ["SY", "tongue_out"]
+- !private ["SY", "winking"]
+- !private ["ST", "first"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "browInnerUp"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "eyeBlinkLeft"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "eyeBlinkRight"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mouthFrownLeft"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mouthFrownRight"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mouthSmileLeft"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mouthSmileRight"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "tongueOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BLINK_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EYEBROW_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FROWN_LEFT_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FROWN_RIGHT_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OPEN_EYE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SMILE_LEFT_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SMILE_RIGHT_VALUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TONGUE_VALUE"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blendShapes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "face"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFrowning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSmiling"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStickingTongueOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSurprised"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTracked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isWinking"]
+- !private ["s21_ObjectiveCBridgeableP", "browInnerUp"]
+- !private ["s21_ObjectiveCBridgeableP", "eyeBlinkLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "eyeBlinkRight"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "mouthFrownLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "mouthFrownRight"]
+- !private ["s21_ObjectiveCBridgeableP", "mouthSmileLeft"]
+- !private ["s21_ObjectiveCBridgeableP", "mouthSmileRight"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "tongueOut"]
+- !private ["s20_SwiftNewtypeWrapperP", "browInnerUp"]
+- !private ["s20_SwiftNewtypeWrapperP", "eyeBlinkLeft"]
+- !private ["s20_SwiftNewtypeWrapperP", "eyeBlinkRight"]
+- !private ["s20_SwiftNewtypeWrapperP", "mouthFrownLeft"]
+- !private ["s20_SwiftNewtypeWrapperP", "mouthFrownRight"]
+- !private ["s20_SwiftNewtypeWrapperP", "mouthSmileLeft"]
+- !private ["s20_SwiftNewtypeWrapperP", "mouthSmileRight"]
+- !private ["s20_SwiftNewtypeWrapperP", "tongueOut"]
+depends-nominal:
+- !private "So8ARAnchorC"
+- !private "So15ARAnchorCopyingP"
+- !private "So12ARFaceAnchorC"
+- !private "So11ARTrackableP"
+- !private "Sa"
+- !private "SK"
+- !private "So20ARBlendShapeLocationa"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "21PhysicalDataReaderLib04FaceC0C"
+- !private "21PhysicalDataReaderLib9FaceStateO"
+- "SH"
+- !private "SD5IndexV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/PhysicalDataReaderLib.h"
+- "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/build/PhysicalDataReaderLib.build/Debug-iphoneos/PhysicalDataReaderLib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "30c12b7b93b36ea03f49cd6e42dd672c"

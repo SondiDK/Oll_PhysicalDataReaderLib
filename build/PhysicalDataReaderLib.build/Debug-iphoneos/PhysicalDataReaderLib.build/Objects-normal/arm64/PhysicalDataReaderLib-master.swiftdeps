@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c16e61a038244c9e9133e77418d17b57"
+build_time: [1557154495, 314379000]
+inputs:
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/New Group/FaceState.swift": [1553263249, 842676365]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/Watch/HeartRateEvaluation.swift": [1554203182, 453481279]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/New Group/FaceValues.swift": [1554203182, 488347755]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/New Group/FaceEvaluation.swift": [1553263249, 842036958]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/Watch/WatchManager.swift": [1553263249, 844310061]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/New Group/FaceReader.swift": [1554203182, 481837033]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/OverallEvaluation.swift": [1554205927, 582655051]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/Watch/HeartRateProvider.swift": [1553263249, 843374024]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/Watch/WatchController.swift": [1553263249, 843851200]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/New Group/FaceController.swift": [1554209389, 253186307]
+  "/Users/oll/Documents/Workspace/PhysicalDataReaderLib/PhysicalDataReaderLib/Watch/SessionManager.swift": [1554204758, 441308713]
