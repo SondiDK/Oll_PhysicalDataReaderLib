@@ -28,4 +28,4 @@ Implement facedelegate:
     
    func didDetectFace(detected: Bool) {
     //lets you know if face is detected
-    }
+    }```
